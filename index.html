@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="welcome()">
+    <!-- <p id="demo">Kritsada</p>
+    <p class="test">Wiriya</p>
+    <button onclick="displayText();">Show</button> -->
+    <!-- <h1 id="title">Title</h1>
+    <p class="content">Title</p>
+    <button onclick="displayClick();">Show</button> -->
+    
+    <div class="box light">
+        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius incidunt ipsum sint nisi ex autem saepe maxime praesentium corrupti rerum tenetur, modi, sequi nostrum sed ducimus enim adipisci iure fugiat.</h4>
+    </div>
+    <button onclick="nightMode();">Night</button>
+    <button onclick="dayMode();">Day</button>
+
+    <p>Hello World</p>
+    <p>Javascript</p>
+    <p>9Kritsada</p>
+
+    <ul id="menu">
+        <li id="item1">y</li>
+    </ul>
+    <button onclick="addItem()">Add item</button>
+    <button onclick="deleteItem()">Delete item</button>
+    <button onclick="replaceItem()">Replace item</button>
+
+    <div id="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim soluta error, magni, ullam quaerat expedita voluptate aperiam cumque voluptates consectetur saepe, nobis repudiandae officia eveniet rerum dolore dolorum laboriosam illo.</p>
+    </div>
+
+    <button onclick="addStyle();">addStyle</button>
+    <button onclick="removeStyle();">removeStyle</button>
+    <button onclick="toggleStyle();">toggleStyle</button>
+    
+    <div style="margin-top: 1em;">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter your name" onfocus="hightlight(this)" onblur="unhightlight(this)">
+    </div>
+
+    <div style="margin-top: 1em;">
+        <label for="">Skill</label>
+        <select name="" id="skill" onchange="getSkill()">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="C_plus">C++</option>
+        </select>
+        <p id="display"></p>
+    </div>
+    
+    <div style="margin-top: 1em;">
+        <a href="#" onmouseover="hightlightTagA(this)" onmouseout="unhightlightTagA(this)">Menu 1</a>
+        <a href="#" onmouseover="hightlightTagA(this)" onmouseout="unhightlightTagA(this)">Menu 2</a>
+        <a href="#" onmouseover="hightlightTagA(this)" onmouseout="unhightlightTagA(this)">Menu 3</a>
+    </div>
+    
+    <div style="margin-top: 1em;">
+        <label for="">Skill</label>
+        <select name="" id="programing">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="C_plus">C++</option>
+        </select>
+        <p id="display2"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
