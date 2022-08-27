@@ -1,0 +1,22 @@
+.box {
+    padding: 1em;
+}
+
+.light {
+    background: orange;
+    color: black;
+    transition: all ease .5s;
+}
+
+.dark {
+    background: #252525;
+    color: #ffffff;
+    transition: all ease .5s;
+}
+
+.boxDark {
+    background: #271e4b;
+    color: #fff;
+    padding: 1em;
+    margin: 1em;
+}
