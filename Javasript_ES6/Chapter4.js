@@ -8,10 +8,10 @@
 // - สามารถแทรกตัวแปรลงใน String ได้
 // - โดยใช้ ${} รวมกับ ` (Back Tick)
 
-let name = "dAKEk"
+let name1 = "dAKEk"
 
-const address = `Name : ${name} 
+const address = `Name : ${name1} 
 Address : RMUTL 
-Tel : 08000000`
+Tel : 0800000`
 
 console.log(address);
